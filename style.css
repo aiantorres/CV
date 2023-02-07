@@ -1,0 +1,10 @@
+.nav-bg {
+    background-image: url(../img/fondo.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    position:relative;
+    margin-bottom: 2rem;
+    
+
+}
