@@ -66,6 +66,9 @@ header{
     height: auto;
     margin: 1rem;
 }
+.datos{
+    padding: 2rem;
+}
 
 .mail,
 .phone,
@@ -122,30 +125,31 @@ header{
 .sobreMi{
     background-color: var(--oscuro);
     margin: 2rem ;
-    border-radius: 10%;
-    height: 450px;
+    border-radius: 5%;
+    height: auto;
+    position: relative;
+    padding: 5rem;
 }
 .sobreMi p{
-    line-height: 2;
+    
     text-align: justify;
     margin: 2rem;
 }
 .sobreMi__encabezado{
     color: var(--fondo);
     background-color: var(--secundario);
-    border-radius: 30%;
-    margin-top: 5rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-bottom: 5rem;
-    padding: 5rem;
-    
-    width: 10rem;
+    border-radius: 10%;
+    padding: 0rem;
+    width: 20rem;
     height: 5rem;
- 
+    margin: 0 auto;
+    top: 2rem;
     align-items: center;
-    justify-content: center;
+    position: absolute;
+    text-align: center;
+    
 }
+
 .boton{
     background-color: var(--secundario);
     color: var(--fondo);
@@ -165,7 +169,7 @@ header{
 /**CONTACTO**/
 .formulario{
     background-color: var(--grisOscuro);
-    width: min(60rem, 100%);
+    width: min (60rem ,100%;)
     margin: 0 auto;
     padding: 2rem;
     border-radius: 1rem;
@@ -200,6 +204,17 @@ header{
 }
 .campo textarea{
     height: 20rem;
+}
+.social-media{
+    display: flex;
+    flex-direction: row;
+    height: 5rem;
+    justify-content: space-between;
+    width: 50rem;
+    margin: 1rem;
+}
+.cli:hover{
+    cursor: pointer;
 }
 .footer{
     text-align: center;
