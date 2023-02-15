@@ -44,14 +44,16 @@ header,
     scroll-snap-align: center;
     scroll-snap-stop: always;
 }
-
+main{
+    padding: 2rem;
+}
 /**HEADER**/
 header{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-@media (min-width: 768px){
+@media (min-width: 992px){
     header{
         display: flex;
         justify-content: space-between;
@@ -80,7 +82,7 @@ header{
     width: 489px;
     gap: 2rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
 
     .contenido{
         display: grid;
@@ -88,7 +90,7 @@ header{
     }
     .mail{
         align-items: flex-end;
-    }
+    } 
     .boton{
         width: auto;
         display:flex;
@@ -128,24 +130,23 @@ header{
     border-radius: 5%;
     height: auto;
     position: relative;
-    padding: 5rem;
+    padding: 2rem;
 }
 .sobreMi p{
-    
+    padding-top: 3rem;
     text-align: justify;
     margin: 2rem;
+    color: var(--fondo);
 }
 .sobreMi__encabezado{
     color: var(--fondo);
     background-color: var(--secundario);
     border-radius: 10%;
-    padding: 0rem;
+    padding: 1rem;
     width: 20rem;
     height: 5rem;
     margin: 0 auto;
-    top: 2rem;
-    align-items: center;
-    position: absolute;
+    
     text-align: center;
     
 }
@@ -169,7 +170,7 @@ header{
 /**CONTACTO**/
 .formulario{
     background-color: var(--grisOscuro);
-    width: min (60rem ,100%;)
+    width: auto;
     margin: 0 auto;
     padding: 2rem;
     border-radius: 1rem;
@@ -205,6 +206,14 @@ header{
 .campo textarea{
     height: 20rem;
 }
+
+
+.cli:hover{
+    cursor: pointer;
+}
+.sm{
+    background-color: var(--oscuro);
+}
 .social-media{
     display: flex;
     flex-direction: row;
@@ -212,9 +221,6 @@ header{
     justify-content: space-between;
     width: 50rem;
     margin: 1rem;
-}
-.cli:hover{
-    cursor: pointer;
 }
 .footer{
     text-align: center;
