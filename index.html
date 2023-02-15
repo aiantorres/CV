@@ -6,33 +6,120 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae</title>
     <link rel="stylesheet" href="css/normalize.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@400;700&family=Open+Sans:ital@1&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="img/icons8-cv-basicons-—-color-96.png">
+    <link rel="preload" href="css/style.css" as="style">
     <link rel="stylesheet" href="css/style.css">
     
 </head>
 <body>
-    <header class="encabezado">
-        <div class="contenedor">
-            <a class="foto"href="index.html">
-                <img class= "fotoMia" src="img/fotoCV.jpeg" alt="foto">
-            </a>
-            <div>
-                <h2 class="encabezado__texto">Aian Torres</h2>
+    <header>
+        <img class="fotoMia" src="img/fotoCV.jpeg" width="450" height="450" style="border: 5px solid #ff2825">
+        <div>
+            <h1>Aian Torres Rodriguez</h1>
+            <h2>Geógrafo y Analista GIS</h2>
+        </div>
+
+        <div>
+            <div class="mail">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="40" height="40" viewBox="0 0 24 24" stroke-width="2.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <rect x="3" y="5" width="18" height="14" rx="2" />
+                    <polyline points="3 7 12 13 21 7" />
+                </svg>
+                
+                <p>Email: </br> torresaian790902@gmail.com </p> 
+                
+            </div>
+            <div class="dir">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="40" height="40" viewBox="0 0 24 24" stroke-width="2.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <circle cx="12" cy="11" r="3" />
+                    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                </svg>
+                <p>Dirección: </br> Cuevas de Almanzora, 125 Madrid </p>
+            </div>
+            <div class="phone">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone" width="40" height="40" viewBox="0 0 24 24" stroke-width="2.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                    </svg>
+                <p>Teléfono: </br> 642244194 </p>
+               
             </div>
         </div>
-        
-             
-        
-        
-        
+
+
+
     </header>
-    <div class="nav-bg">
-        <nav class="navegacion-principal contenedor">
-            <a href="#">Inicio</a>
-            <a href="#">Sobre Mi</a>
-            <a href="#">Clientes</a>
-            <a href="#">Contacto</a>
-        </nav>
-    </div>
+    <main>
+        <div class="contenido">
+            <section class="sobreMi primera">
+                <h3 class="sobreMi__encabezado ">Sobre mí</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet dicta iusto eum amet dolorem nesciunt deleniti eius illum nemo nam consectetur molestias totam fugiat quos facilis eaque quas, dignissimos eos!</p>
+    
+            </section>
+            
+           
+            <section class="sobreMi segunda" >
+                <h3 class="sobreMi__encabezado">Educación</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda rerum laudantium ut, illum nam, excepturi architecto culpa labore omnis ipsum voluptas quaerat. Officiis ea quisquam est, cupiditate minus culpa totam!</p>
+            </section>
+
+            <aside class="sobreMi tercera">
+                <h3 class="sobreMi__encabezado">Experiencia Laboral</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi est illum voluptatum perspiciatis impedit in! Eligendi, temporibus, minima molestiae quidem dolore nesciunt optio laboriosam, quos beatae nulla voluptas officia distinctio.</p>
+            </aside>
+
+        </div>
+
+        <section>
+            <h2>Contacto</h2>
+            <form class="formulario">
+                <fieldset>
+                    <legend>Contáctame llenando todos los campos</legend>
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label>Nombre</label>
+                            <input class="input" type="text" placeholder="Tu Nombre">   
+                        </div>
+                        <div class="campo">
+                            <label>Teléfono</label>
+                            <input class="input" type="number" placeholder="Tu Teléfono">
+                        </div>
+                        <div class="campo">
+                            <label>Correo</label>
+                            <input class="input" type="email" placeholder="Email">
+                        </div>
+                        <div class="campo">
+                            <label>Mensaje</label>
+                            <textarea class="input"></textarea>
+                        </div>
+                    </div>
+                        
+                    <div class="">
+                        <input class="boton " type="submit" value="Enviar">
+                    </div> 
+      
+                </fieldset>
+
+
+            </form>
+        </section>
+
+
+
+    </main>
+   
+
+    <footer class="footer">
+        <p>Todos los derechos reservados. Aian Torres Rodriguez 2023</p>
+    </footer>
+
+
+
+    
 </body>
 </html>
