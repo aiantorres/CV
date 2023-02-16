@@ -166,7 +166,7 @@ header{
 /**CONTACTO**/
 .formulario{
     background-color: var(--grisOscuro);
-    width: auto;
+    width: min(90%, 100rem);
     margin: 0 auto;
     padding: 2rem;
     border-radius: 1rem;
@@ -208,10 +208,12 @@ header{
     cursor: pointer;
 }
 .sm{
-    background-color: var(--oscuro);
-    margin: 2rem;
-    padding: 2rem;
+    background-color: var(--grisOscuro);
+    width: min(85%, 120rem);
+    margin: 0 auto;
+    padding: .5rem;
     border-radius: 5%;
+    
 }
 .social-media{
     display: flex;
