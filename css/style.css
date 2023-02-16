@@ -209,7 +209,7 @@ header{
 }
 .sm{
     background-color: var(--grisOscuro);
-    width: min(85%, 120rem);
+    width: min(85%, 100rem);
     margin: 0 auto;
     padding: .5rem;
     border-radius: 5%;
