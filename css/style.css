@@ -131,6 +131,7 @@ header{
     position: relative;
     padding: 2rem;
 }
+.sobreMi li, 
 .sobreMi p{
     padding-top: 3rem;
     text-align: justify;
